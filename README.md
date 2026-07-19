@@ -19,8 +19,8 @@ Granth turns your page hierarchy into the site's structure: arrange pages with p
 
 ## Requirements
 
-- WordPress 6.5+
-- PHP 7.4+
+- WordPress 7.0+
+- PHP 8.3+
 
 ## Installation
 

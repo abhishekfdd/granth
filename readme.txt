@@ -1,9 +1,9 @@
 === Granth ===
 Contributors: abhishekfdd
 Tags: education, two-columns, left-sidebar, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, block-patterns, block-styles, style-variations, translation-ready
-Requires at least: 6.5
+Requires at least: 7.0
 Tested up to: 7.0
-Requires PHP: 7.4
+Requires PHP: 8.3
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
