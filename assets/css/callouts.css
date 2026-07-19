@@ -1,0 +1,16 @@
+.is-style-callout-note,
+.is-style-callout-tip,
+.is-style-callout-warning {
+	background-color: var(--wp--preset--color--tertiary);
+	border-left: 3px solid var(--wp--custom--callout--note);
+	border-radius: 8px;
+	padding: var(--wp--preset--spacing--50);
+}
+
+.is-style-callout-tip {
+	border-left-color: var(--wp--custom--callout--tip);
+}
+
+.is-style-callout-warning {
+	border-left-color: var(--wp--custom--callout--warning);
+}
