@@ -9,7 +9,7 @@ Granth is a free WordPress block theme (FSE) for documentation and knowledge bas
 - Fonts bundled locally (Figtree for text, JetBrains Mono for code, both OFL with license files in assets/fonts/). Never load fonts from a CDN.
 - Navigation/structure uses core blocks only. The docs sidebar is a Navigation block with a Page List fallback, driven by page hierarchy. No custom JS unless purely presentational and tiny.
 - Skip link (core provides it — templates must keep a `<main>` element), keyboard navigation, and sensible heading order are required. All palette combinations must hold WCAG AA (4.5:1); this is verified for the default, Midnight, and Parchment schemes.
-- Minimum versions: WP 7.0, PHP 8.3 (style.css and readme.txt must agree). theme.json is still version 2 for historical reasons (the theme originally targeted WP 6.5); with the 7.0 minimum a migration to version 3 is now possible but has not been done — if migrating, update the `$schema` URLs in theme.json and both style variation files together.
+- Minimum versions: WP 7.0, PHP 8.3 (style.css and readme.txt must agree). theme.json and both style variations are version 3 (`$schema` wp/7.0). v3 semantics: `defaultFontSizes: false` and `defaultSpacingSizes: false` are set so the theme's presets replace core defaults — keep them when editing presets.
 
 ## Architecture decisions
 
