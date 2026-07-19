@@ -1,0 +1,20 @@
+/*
+Theme Name: Granth
+Theme URI: https://github.com/abhishekfdd/granth
+Author: Abhishek Kumar
+Author URI: https://profiles.wordpress.org/abhishekfdd/
+Description: Granth is a block theme for documentation and knowledge base sites. It pairs a fluid, long-form reading experience with a docs sidebar built from your page hierarchy, search-first landing patterns, and careful code typography using JetBrains Mono.
+Requires at least: 6.5
+Tested up to: 7.0
+Requires PHP: 7.4
+Version: 0.1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: granth
+Tags: education, two-columns, left-sidebar, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, block-patterns, block-styles, style-variations, translation-ready
+*/
+
+/*
+ * All design tokens and default styles live in theme.json.
+ * This file intentionally holds only the theme header.
+ */
