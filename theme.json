@@ -1,6 +1,13 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.5/theme.json",
 	"version": 2,
+	"customTemplates": [
+		{
+			"name": "page-no-sidebar",
+			"title": "Page (No Sidebar)",
+			"postTypes": [ "page" ]
+		}
+	],
 	"templateParts": [
 		{
 			"name": "header",
