@@ -1,0 +1,65 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+	"version": 2,
+	"title": "Parchment",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "base",
+					"color": "#faf5ec",
+					"name": "Base"
+				},
+				{
+					"slug": "contrast",
+					"color": "#33261a",
+					"name": "Contrast"
+				},
+				{
+					"slug": "primary",
+					"color": "#8f4416",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#75634f",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#f0e6d6",
+					"name": "Tertiary"
+				}
+			]
+		},
+		"custom": {
+			"callout": {
+				"note": "#2f6d62",
+				"tip": "#557a29",
+				"warning": "#a3560e"
+			}
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var:preset|color|base",
+			"text": "var:preset|color|contrast"
+		},
+		"typography": {
+			"lineHeight": "1.75"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontWeight": "800",
+					"lineHeight": "1.2"
+				}
+			},
+			"button": {
+				"border": {
+					"radius": "999px"
+				}
+			}
+		}
+	}
+}
